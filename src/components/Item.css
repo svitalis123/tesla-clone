@@ -1,0 +1,47 @@
+.Item{
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+    justify-content: center;
+
+}
+.Item__container{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+.Item__text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 27px;
+}
+.Item_desc{
+    
+    font-size: 15px;
+    font-weight: 300;
+}
+.Item__lower{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+.twobuttons{
+    display: flex;
+}
+.button__down{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+    padding: 10px;
+
+}

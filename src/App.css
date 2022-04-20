@@ -1,0 +1,10 @@
+.App {
+  
+  background-color: #282c34;
+}
+
+.App__items{
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+}
